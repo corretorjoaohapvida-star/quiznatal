@@ -13,3 +13,28 @@
 
 /* v4: apresentação visual completa dos arquivos por família de peças. */
 .kit-step .kit-counter{font-size:10px;letter-spacing:.8px;font-weight:800;color:var(--green);margin:0 0 11px}.kit-step h1{font-size:23px;margin-bottom:12px}.kit-step .kit-intro{font-size:13px;line-height:1.4;margin:0 3px 15px}.kit-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0}.kit-product{padding:0;border:1px solid #b6d8c0;border-radius:12px;overflow:hidden;background:#fff;color:var(--ink);text-align:center;box-shadow:0 2px 5px #06190d0b}.kit-product img{width:100%;height:110px;display:block;object-fit:contain;background:#f5f8f5}.kit-product span{display:grid;place-items:center;min-height:34px;padding:5px 6px;font-size:11px;font-weight:700;line-height:1.25;background:#e8f6ed}.kit-product:hover{border-color:var(--green)}.kit-step .kit-digital{font-size:10px;line-height:1.4;color:var(--muted);margin:13px 3px 0}.kit-step>.primary{margin-top:18px;min-height:58px;font-size:13px}.plan-visual{padding:0;width:100%;background:#f7faf7;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 12px}.plan-visual img{width:100%;height:128px;display:block;object-fit:contain}.plan-visual span{display:block;background:#edf6ef;font-size:9px;line-height:1.4;padding:5px;color:#467352}.plan-visual:hover{border-color:var(--green)}@media(max-width:350px){.kit-step h1{font-size:21px}.kit-product img{height:98px}.kit-product span{font-size:10px;min-height:34px}.kit-step>.primary{font-size:12px}.plan-visual img{height:105px}}@media(max-height:740px) and (max-width:500px){.kit-step .bar{margin-bottom:15px}.kit-step .kit-counter{margin-bottom:8px;font-size:9px}.kit-step h1{font-size:21px;margin-bottom:10px}.kit-step .kit-intro{font-size:12px;margin-bottom:12px}.kit-product img{height:77px}.kit-product span{font-size:10px;min-height:30px;padding:4px}.kit-grid{gap:8px}.kit-step .kit-digital{font-size:9px;margin-top:10px}.kit-step>.primary{margin-top:14px;min-height:54px;font-size:12px}}
+
+/* Mobile refinement: reserve space for the painted button shadow. */
+.intro .intro-digital{margin:25px 8px 0;line-height:1.55;font-size:12px;color:#616b78}
+.primary{flex-shrink:0;overflow-wrap:break-word}
+#app{padding-bottom:28px}
+.site-footer{padding-top:24px;padding-bottom:max(24px,env(safe-area-inset-bottom));color:#66717b}
+.site-footer button{min-height:44px;padding:12px;color:#52616b}
+.back-top{min-height:44px;min-width:44px}
+.proof-image span,.plan-visual span{min-height:28px;display:flex;align-items:center;justify-content:center}
+.kit-product span{overflow-wrap:break-word}
+@media(max-width:500px){
+ #app{padding-inline:16px}.progress-row .back-top,.route-back{left:6px}
+ .intro{padding-top:32px}.intro .lede{margin-inline:3px;line-height:1.5}
+ .transformation{width:100%;max-width:320px;margin-bottom:30px}
+ .intro .primary{min-height:60px;padding-inline:12px;font-size:14px}
+ .intro .intro-digital{margin-top:25px}
+ .plan ul{line-height:1.55}.plan .primary{font-size:11px;min-height:58px;padding:12px 6px}
+ .plan .payment{font-size:10px;line-height:1.5;margin-bottom:16px}
+ .plans{gap:10px}.plan h3{overflow-wrap:break-word}
+ dialog{max-height:90dvh;overflow:auto}#proof-dialog img{max-height:74dvh}
+}
+@media(max-width:350px){#app{padding-inline:12px}.intro .primary{font-size:13px}.plan .primary{font-size:10px}.intro .intro-digital{font-size:11px}}
+@media(max-height:740px) and (max-width:500px){.intro{padding-top:20px}.transformation{max-width:280px;margin-bottom:25px}.intro .lede{line-height:1.4}.intro .primary{min-height:56px}.intro .intro-digital{margin-top:23px;font-size:11px}}
+
+@media(max-height:740px) and (max-width:500px){.proof-image img{max-height:145px;object-fit:contain}.proof-prints{gap:9px}.proof-image span{min-height:24px}}
